@@ -84,16 +84,18 @@ DATABASES = {
 }
 """
 
+# This database is set to work on AWS and Postgre
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ang_database',
-        'USER': 'postgres',
-        'PASSWORD': 'Angheben@20',
-        'HOST': 'localhost',
+        'NAME': 'ang_trading_database',
+        'USER': 'vitor',
+        'PASSWORD': 'gabi2025',
+        'HOST': 'angtradingdatabase.cc71qdo2tcoy.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
@@ -132,8 +134,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-# STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+
 # Email test
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
