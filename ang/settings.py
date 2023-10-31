@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-$z8arncd@uet-gr879tms2hcn$a6@4n@2suz^=g^qps2c3@xcx
 DEBUG = True
 
 # Inserting some IP's
-ALLOWED_HOSTS = ['127.0.0.1', '172.31.26.83', '187.109.100.157', '172.31.26.83', '3.145.111.6', '*']
+ALLOWED_HOSTS = ['127.0.0.1', '172.31.26.83', '187.109.100.157', '172.31.26.83', '3.145.111.6', '187.109.101.107']
 
 
 # Application definition
