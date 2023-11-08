@@ -747,10 +747,8 @@ hr {
 3. Hero Area
 ========================================================================== */
 #hero-area {
-  background-image: url(../img/hero-area.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ffffff;
+  background-image: none;
   min-height: 650px;
   position: relative;
   overflow: hidden;
@@ -775,7 +773,7 @@ hr {
 }
 
 .sloder-img {
-  background: #34363a;
+  background: #ffffff;
 }
 
 /* Team Item */

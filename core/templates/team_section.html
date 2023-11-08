@@ -2,14 +2,14 @@
 <section id="team" class="section-padding bg-gray">
       <div class="container">
         <div class="section-header text-center">
-          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Meet our team</h2>
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Conheça nosso time</h2>
           <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-12 col-xs-12">
 
-            {% for e in employees %}
             <!-- Team Item Starts -->
+            {% for e in employees %}
             <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
               <div class="team-img">
                 <img class="img-fluid" src="{{ e.image.thumb.url }}" alt="">
