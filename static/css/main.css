@@ -747,6 +747,7 @@ hr {
 3. Hero Area
 ========================================================================== */
 #hero-area {
+  background-image: url(static/img/options/nv2.jpg);
   background-color: #ffffff;
   background-image: none;
   min-height: 650px;
@@ -774,6 +775,18 @@ hr {
 
 .sloder-img {
   background: #ffffff;
+}
+
+.img-fluid {
+  width: 3000px;
+  height: 400px;
+  margin: 0px 0px 90px 0px;
+}
+
+.img-boat {
+  width: 512px;
+  height: 192px;
+  margin: 80px;
 }
 
 /* Team Item */

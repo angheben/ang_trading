@@ -122,10 +122,10 @@
     margin: 5px 0;
   }
   .top-nav-collapse .navbar-brand img {
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .intro-img {
-    margin-top: 20px;
+    margin-top: -10px;
   }
   #hero-area .img-thumb {
     display: none;
