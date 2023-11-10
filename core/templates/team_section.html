@@ -2,33 +2,33 @@
 <section id="team" class="section-padding bg-gray">
       <div class="container">
         <div class="section-header text-center">
-          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Conheça nosso time</h2>
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Nosso time</h2>
           <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-12 col-xs-12">
-
-            <!-- Team Item Starts -->
-            {% for e in employees %}
-            <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
-              <div class="team-img">
-                <img class="img-fluid" src="{{ e.image.thumb.url }}" alt="">
+              <div class="team-description" data-wow-delay="0.3s">
+                  <h4>Comercial</h4>
+                  <p></p>
+                <h5> Nossa equipe comercial é responsável por expandir os negócios da empresa buscando novos clientes,
+                     buscando fornecedores no exterior que atendam as demandas dos clientes no Brasil e firmar parcerias
+                     estratégicas com agentes da operação.</h5><p></p>
+                  <h4>Administrativo</h4><p></p>
+                  <h5>
+                      Nossa equipe administrativa é a responsável pela intermediação dos processos dos clientes, fazemos o
+                      contato com os fornecedores, agentes de frete, despachante e trataremos de mantê-lo informado em
+                      tempo real de todo o processo além de organizar toda a documentação e estimativas de preço.
+                  </h5><p></p>
+                  <h4>Financeiro</h4><p></p>
+                  <h5>
+                      Além de manter o fluxo de caixa da empresa em dia o nosso departamento financeiro auxilia os
+                      clientes durante as transações internacionais proporcionando segurança e comodidade durante essas
+                      transações.
+                  </h5>
               </div>
-              <div class="contetn">
-                <div class="info-text">
-                  <h3><a href="#"> {{ e.name }} </a></h3>
-                  <p> {{ e.role }} </p>
-                </div>
-                <p>{{ e.bio }}</p>
-                <ul class="social-icons">
-                  <li><a href="{{ e.facebook }}"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="{{ e.twitter }}"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                  <li><a href="{{ e.instagram }}"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- Team Item Ends -->
-          {% endfor %}
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <img src="{% static 'img/options/team.png' %}" alt="">
           </div>
         </div>
       </div>
