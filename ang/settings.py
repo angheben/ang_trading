@@ -94,13 +94,13 @@ DATABASES = {
         'NAME': 'ang_trading_database',
         'USER': 'vitor',
         'PASSWORD': 'gabi2025',
-        'HOST': 'angtradingdatabase.cc71qdo2tcoy.us-east-2.rds.amazonaws.com',
+        'HOST': 'angtradingdatabase.cbe1o6n4gvvs.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
 
-AWS_ACCESS_KEY_ID = 'AKIARRXV4BU7E5WSVL67'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'AKIAQEPRPIFEDUUHZN66'
+AWS_SECRET_ACCESS_KEY = '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'
 AWS_STORAGE_BUCKET_NAME = 'angtrading'
 AWS_S3_SIGNATURE_NAME = 's3v4',
 AWS_S3_REGION_NAME = 'US East (Ohio) us-east-2'
