@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-$z8arncd@uet-gr879tms2hcn$a6@4n@2suz^=g^qps2c3@xcx
 DEBUG = True
 
 # Inserting some IP's
-ALLOWED_HOSTS = ['127.0.0.1', '172.31.26.83', '187.109.100.157', '172.31.26.83', '3.145.111.6', '187.109.101.107']
+ALLOWED_HOSTS = ['127.0.0.1', '172.31.26.83', '187.109.100.157', '3.133.218.207', '172.31.26.83', '3.145.111.6',
+                 '187.109.101.107', '187.109.98.147']
 
 
 # Application definition
@@ -87,11 +88,11 @@ DATABASES = {
 }
 """
 
-# This database is set to work on AWS and Postgre
+# This database is set to work on AWS and Postgree
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ang_trading_database',
+        'NAME': 'angtradingdatabase',
         'USER': 'vitor',
         'PASSWORD': 'gabi2025',
         'HOST': 'angtradingdatabase.cbe1o6n4gvvs.us-east-2.rds.amazonaws.com',
@@ -108,7 +109,6 @@ AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
 AWS_S3_VERITY = True
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
 
 
 # Password validation
