@@ -88,14 +88,14 @@ DATABASES = {
 }
 """
 
-# This database is set to work on AWS and Postgree
+# This database is set to work on AWS RDS and Postgre
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'angtradingdatabase',
+        'NAME': 'angtradingdb',
         'USER': 'vitor',
         'PASSWORD': 'gabi2025',
-        'HOST': 'angtradingdatabase.cbe1o6n4gvvs.us-east-2.rds.amazonaws.com',
+        'HOST': 'angtradingdb.cbe1o6n4gvvs.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
