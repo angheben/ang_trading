@@ -416,6 +416,16 @@ hr {
 }
 
 /* Services Item */
+
+#services {
+  background-color: #000000;
+  position: relative;
+}
+
+#services .section-title{
+  color: #FFFFFF;
+}
+
 .services-item {
   padding: 20px;
   border-radius: 4px;
@@ -456,11 +466,12 @@ hr {
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 10px;
+  color: #FFFFFF;
 }
 
 .services-item .services-content h3 a {
   font-size: 16px;
-  color: #585b60;
+  color: #FFFFFF;
 }
 
 .services-item .services-content h3 a:hover {
@@ -477,10 +488,6 @@ hr {
 
 .services-item:hover .icon i {
   color: #fff;
-}
-
-#service {
-  position: relative;
 }
 
 .about-area .about-wrapper {
