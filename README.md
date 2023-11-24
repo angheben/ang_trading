@@ -1,13 +1,27 @@
-This project is a landing page that I develop for ANG Trading the company I work, to develop this website I've imported a front-end template and set this project in a Django strucutre
+This project it's a general landinpage of a company where the idea was to extract some informations from the HTML file and register some 
+contents in the database, furthermore, the idea was to train a little bit of the Class Based Views.
 
-For that, I start a django project and application, separate the HTML code in templates for each section of the website, extruded the settings.py file to save static files in a separate folder, create a superadmin, a database to store some important data of the website, linked the urls and create my views.py to make the connection between my database
+The landing page, it's this one bellow
 
-The idea of this project was to facilitate for the company to edit the sections that can change from times to times, for example in the section of services, instead of create a new item in HTML I just create a logic where the admin can do that from the admin django page
+![image](https://user-images.githubusercontent.com/113387966/210190157-06f9227a-99b4-4054-a9e8-1f3a4cd28a25.png)
+![image](https://user-images.githubusercontent.com/113387966/210190176-42ef5c75-7651-46d4-b2d8-03ccc819f1b3.png)
+![image](https://user-images.githubusercontent.com/113387966/210190187-421cabcb-1060-4bce-980a-4773a668b868.png)
+![image](https://user-images.githubusercontent.com/113387966/210190195-8bdec650-2a09-4fbd-97af-b380d4175d32.png)
+![image](https://user-images.githubusercontent.com/113387966/210190208-ba5d5f84-31bf-469e-a0ff-fc7b12b276e5.png)
+![image](https://user-images.githubusercontent.com/113387966/210190219-49648783-b6e0-4b74-9729-d2dc30bcb606.png)
+![image](https://user-images.githubusercontent.com/113387966/210190220-7967ed05-14f6-44af-9765-483c7fa42701.png)
+![image](https://user-images.githubusercontent.com/113387966/210190234-24cadf83-a252-4c53-be7e-5e8cd1c362ef.png)
+![image](https://user-images.githubusercontent.com/113387966/210190240-4cb9d184-1505-47bf-9b89-43949604dc78.png)
+![image](https://user-images.githubusercontent.com/113387966/210190245-13b81e05-ca62-464c-a210-8fa9e61d76b8.png)
 
-I also connect this project in a AWS RDS to store relational data and in a AWS S3 to store static files
+In this project, the first thing done was create a 'base.html' file to serve as a base to all other HTML files, in this 'base.html' I've loaded all the css, 
+JavaScript,some icons and images that is commun to all files, the structure was like that:
 
-The deployment was made in AWS EC2 with an ubuntu engine, the IP of this service where you can access the website is this one 
+![image](https://user-images.githubusercontent.com/113387966/210190385-9b879b13-185c-4bad-b882-848073ac5e86.png)
 
-And finally this is the result :D
+After that, I registered some icons in the 'Our Service' template in my database and regoistered some random people in the 'Our Team' template to
 
-![](../trading1.png)![](../trading2.png)![](../trading3.png)![](../trading4.png)![](../trading5.png)![](../trading6.png)![](../trading7.png)![](../trading8.png)![](../trading9.png)
+In this project I've learn how to extructure a big HTML file in small ones, learn the concept of class based views, how to register icons and thumb images 
+in the database to
+
+I hope you like that :D
